@@ -36,12 +36,12 @@ Read it in 2 minutes over morning coffee. Implement it before lunch. Move on wit
 
 | Day | Topic | Link |
 |-----|-------|------|
-| 1 | No Fluff Zone | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-1-of-24-no-fluff-activity-7401164442815860736-Ra9q) |
-| 2 | The Status Update | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-2-of-24-the-activity-7401572098491719680-9v9b) |
-| 3 | The Priorities | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-3-of-24-the-activity-7401881639125262336-xmKC) |
-| 4 | The Blockers | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-4-of-24-the-activity-7402247895816699904-kHel) |
-| 5 | The Dependencies | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-5-of-24-the-activity-7402595141821186048-Mv_J) |
-| 6 | The Retrospective | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-6-of-24-the-activity-7403070753954484224-t1ZV) |
+| 1 | No-Fluff Retrospectives | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-1-of-24-no-fluff-activity-7401164442815860736-Ra9q) |
+| 2 | The 15-Minute Dependency Dash | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-2-of-24-the-activity-7401572098491719680-9v9b) |
+| 3 | The Communication Rhythm Audit | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-3-of-24-the-activity-7401881639125262336-xmKC) |
+| 4 | The Honest Risk Register | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-4-of-24-the-activity-7402247895816699904-kHel) |
+| 5 | The Stakeholder Alignment | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-5-of-24-the-activity-7402595141821186048-Mv_J) |
+| 6 | The Capacity vs. Commitment Gap | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-6-of-24-the-activity-7403070753954484224-t1ZV) |
 
 </details>
 
@@ -50,12 +50,12 @@ Read it in 2 minutes over morning coffee. Implement it before lunch. Move on wit
 
 | Day | Topic | Link |
 |-----|-------|------|
-| 7 | The Automation | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-7-of-24-the-activity-7403433120865288192-mycC) |
-| 8 | AI Foundations | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-8-of-24-ai-activity-7403693573294149634-vaEz) |
-| 9 | AI Workflows | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-9-of-24-ai-activity-7404059814365966337-Go2A) |
-| 10 | AI Tools | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-10-of-24-ai-activity-7404490089780715520-NndV) |
-| 11 | The Metrics | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-11-of-24-the-activity-7404784681671630850--tpP) |
-| 12 | Risk Management | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-riskmanagement-activity-7405146900695400448-6uXi) |
+| 7 | The Pre-Holiday Handoff | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-7-of-24-the-activity-7403433120865288192-mycC) |
+| 8 | AI Tool Jungle & Ranking | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-8-of-24-ai-activity-7403693573294149634-vaEz) |
+| 9 | AI Morning Briefing with Gemini | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-9-of-24-ai-activity-7404059814365966337-Go2A) |
+| 10 | AI Real-Time Alignment | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-10-of-24-ai-activity-7404490089780715520-NndV) |
+| 11 | The "Explain Like I'm the TPM" Prompt | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-11-of-24-the-activity-7404784681671630850--tpP) |
+| 12 | The "5-Minute Risk Audit" Prompt | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-riskmanagement-activity-7405146900695400448-6uXi) |
 
 </details>
 
@@ -64,12 +64,12 @@ Read it in 2 minutes over morning coffee. Implement it before lunch. Move on wit
 
 | Day | Topic | Link |
 |-----|-------|------|
-| 13 | Cross-Functional Skills | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-activity-7405615603992137728-mMSR) |
-| 14 | AI Integration | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-14-of-24-ai-activity-7405784527710756864-gObx) |
-| 15 | Dependency Management | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-15-of-24-dependency-activity-7406234060618104832-MHjD) |
-| 16 | Stakeholder Management | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-16-of-24-stakeholder-activity-7406585123082604546-341x) |
-| 17 | Meeting Excellence | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-meetings-activity-7406962624367738881-_gvB) |
-| 18 | Escalation Mastery | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-escalation-activity-7407325072505384962-tUba) |
+| 13 | The "Stakeholder Update" with AI | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-activity-7405615603992137728-mMSR) |
+| 14 | AI Week Reality Check | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-14-of-24-ai-activity-7405784527710756864-gObx) |
+| 15 | Dependency Mapping w/o AI | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-15-of-24-dependency-activity-7406234060618104832-MHjD) |
+| 16 | Stakeholder Communication Frameworks | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-16-of-24-stakeholder-activity-7406585123082604546-341x) |
+| 17 | The 3 Meetings TPMs Run Wrong | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-meetings-activity-7406962624367738881-_gvB) |
+| 18 | When to Escalate (Without Burning Bridges) | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-escalation-activity-7407325072505384962-tUba) |
 
 </details>
 
@@ -78,12 +78,12 @@ Read it in 2 minutes over morning coffee. Implement it before lunch. Move on wit
 
 | Day | Topic | Link |
 |-----|-------|------|
-| 19 | Program Management | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-programmanagement-activity-7407740268244008960-Y1Zl) |
-| 20 | Metrics & KPIs | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-metrics-activity-7408144151915175936-ic2s) |
-| 21 | TPM Fundamentals | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-fundamentals-activity-7408506795746435073-IP2c) |
-| 22 | Pattern Recognition | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-patternrecognition-activity-7408823666706235393-2K0Y) |
-| 23 | Career Growth | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-career-activity-7409186088180686848-mrUA) |
-| 24 | Series Finale | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-24-of-24-series-activity-7409548458988105728-HCtU) |
+| 19 | The Signals Your Program is Failing | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-programmanagement-activity-7407740268244008960-Y1Zl) |
+| 20 | Stop Tracking Status, Start Tracking Momentum | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-metrics-activity-7408144151915175936-ic2s) |
+| 21 | Week 3 Wrap: The Fundamentals That Never Change | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-fundamentals-activity-7408506795746435073-IP2c) |
+| 22 | The One Skill That Makes Everything Else Easier | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-patternrecognition-activity-7408823666706235393-2K0Y) |
+| 23 | What I Wish I Knew When I Started as a TPM | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-career-activity-7409186088180686848-mrUA) |
+| 24 | Series Wrap: What's Next for TPMs in 2026? | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-24-of-24-series-activity-7409548458988105728-HCtU) |
 
 </details>
 
