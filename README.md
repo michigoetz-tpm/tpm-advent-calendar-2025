@@ -107,12 +107,6 @@ Read it in 2 minutes over morning coffee. Implement it before lunch. Move on wit
 ## 🔗 Connect
 
 - **LinkedIn:** [Michael Götz](https://www.linkedin.com/in/michi-goetz)
-- **Newsletter:** [TPM Insights on Substack](#) <!-- Add your Substack link -->
+- **Substack:** [TPM Breakdowns](https://michigoetz.substack.com/)
 
----
-
-See you December 1st and let's close the year strong. 🎄
-
----
-
-*© 2025 Michael Götz*
+*Built 2025 by Michael Goetz*
