@@ -1,16 +1,118 @@
-# :christmas_tree: TPM Advent Calendar 2025
-Technical Program Manager Advent Calendar 2025 - 24 Days of insights
+# 🎄 Technical Program Management Advent Calendar 2025
 
-🎄Growing up in Germany, December 1st meant one thing: open the 1st door of the advent calendar. This december I am lauchning the Technical Program Management Advent Calendar. 
-Every morning, a small ritual. A moment of anticipation. A piece of chocolate or a tiny surprise before the day really started. The tech community has built their own versions - no chocolate, but knowledge and challenges. For TPMs I am translating this into daily treats of learning, one door at a time. 
-December is tough. You are sprinting towards year-end while everyone's mentally waiting for the break. You don't have time for 3000 word essays or theoretical frameworks. You need tactical wins. Fast. 
+**24 Days of Tactical TPM Insights | Zero Fluff | One Action Item Per Day**
 
-Each post: 300 words max. One aciton item. Zero fluff. 24 days. 
+🌐 **Website:** [Coming Soon](#) <!-- Replace with actual URL -->
+
+---
+
+## About
+
+Growing up in Germany, December 1st meant one thing: open the 1st door of the advent calendar. This December I am launching the Technical Program Management Advent Calendar.
+
+Every morning, a small ritual. A moment of anticipation. A piece of chocolate or a tiny surprise before the day really started. The tech community has built their own versions - no chocolate, but knowledge and challenges. For TPMs I am translating this into daily treats of learning, one door at a time.
+
+## Why This Exists
+
+December is tough. You are sprinting towards year-end while everyone's mentally waiting for the break. You don't have time for 3000 word essays or theoretical frameworks. You need tactical wins. Fast.
+
+**Each post: 300 words max. One action item. Zero fluff. 24 days.**
 
 Read it in 2 minutes over morning coffee. Implement it before lunch. Move on with your day.
 
-What's behind each door? 
-🟢 Week 1: The Year End Reality Check & Crunch Time
-🤖 Week 2: AI Use Cases for TPMs
-🧠 Week 3: Cross-Functional Mastery & Influence
-🚀 Week 4: The 2026 TPM Launchpad
+## 📅 What's Behind Each Door?
+
+| Week | Theme | Days |
+|------|-------|------|
+| 🟢 **Week 1** | The Year End Reality Check & Crunch Time | 1-6 |
+| 🤖 **Week 2** | AI Use Cases for TPMs | 7-12 |
+| 🤝 **Week 3** | Cross-Functional Mastery & Influence | 13-18 |
+| 🚀 **Week 4** | The 2026 TPM Launchpad | 19-24 |
+
+## 🗓️ Daily Content
+
+<details>
+<summary><strong>Week 1: The Year End Reality Check & Crunch Time</strong></summary>
+
+| Day | Topic | Link |
+|-----|-------|------|
+| 1 | No Fluff Zone | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-1-of-24-no-fluff-activity-7401164442815860736-Ra9q) |
+| 2 | The Status Update | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-2-of-24-the-activity-7401572098491719680-9v9b) |
+| 3 | The Priorities | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-3-of-24-the-activity-7401881639125262336-xmKC) |
+| 4 | The Blockers | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-4-of-24-the-activity-7402247895816699904-kHel) |
+| 5 | The Dependencies | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-5-of-24-the-activity-7402595141821186048-Mv_J) |
+| 6 | The Retrospective | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-6-of-24-the-activity-7403070753954484224-t1ZV) |
+
+</details>
+
+<details>
+<summary><strong>Week 2: AI Use Cases for TPMs</strong></summary>
+
+| Day | Topic | Link |
+|-----|-------|------|
+| 7 | The Automation | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-7-of-24-the-activity-7403433120865288192-mycC) |
+| 8 | AI Foundations | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-8-of-24-ai-activity-7403693573294149634-vaEz) |
+| 9 | AI Workflows | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-9-of-24-ai-activity-7404059814365966337-Go2A) |
+| 10 | AI Tools | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-10-of-24-ai-activity-7404490089780715520-NndV) |
+| 11 | The Metrics | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-11-of-24-the-activity-7404784681671630850--tpP) |
+| 12 | Risk Management | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-riskmanagement-activity-7405146900695400448-6uXi) |
+
+</details>
+
+<details>
+<summary><strong>Week 3: Cross-Functional Mastery & Influence</strong></summary>
+
+| Day | Topic | Link |
+|-----|-------|------|
+| 13 | Cross-Functional Skills | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-activity-7405615603992137728-mMSR) |
+| 14 | AI Integration | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-14-of-24-ai-activity-7405784527710756864-gObx) |
+| 15 | Dependency Management | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-15-of-24-dependency-activity-7406234060618104832-MHjD) |
+| 16 | Stakeholder Management | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-16-of-24-stakeholder-activity-7406585123082604546-341x) |
+| 17 | Meeting Excellence | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-meetings-activity-7406962624367738881-_gvB) |
+| 18 | Escalation Mastery | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-escalation-activity-7407325072505384962-tUba) |
+
+</details>
+
+<details>
+<summary><strong>Week 4: The 2026 TPM Launchpad</strong></summary>
+
+| Day | Topic | Link |
+|-----|-------|------|
+| 19 | Program Management | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-programmanagement-activity-7407740268244008960-Y1Zl) |
+| 20 | Metrics & KPIs | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-metrics-activity-7408144151915175936-ic2s) |
+| 21 | TPM Fundamentals | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-fundamentals-activity-7408506795746435073-IP2c) |
+| 22 | Pattern Recognition | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-patternrecognition-activity-7408823666706235393-2K0Y) |
+| 23 | Career Growth | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-career-activity-7409186088180686848-mrUA) |
+| 24 | Series Finale | [LinkedIn](https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-24-of-24-series-activity-7409548458988105728-HCtU) |
+
+</details>
+
+## 🚀 Getting Started
+
+1. **Follow along daily** - New content drops every morning in December
+2. **Pick one action item** - Each day has exactly one thing you can implement
+3. **Share your wins** - Tag me on LinkedIn when you apply something
+
+## 📁 Repository Structure
+
+```
+├── index.html          # Interactive advent calendar website
+├── images/             # Daily content images and videos
+│   ├── Day1of24.png
+│   ├── Day2of24.png
+│   └── ...
+└── README.md
+```
+
+## 🔗 Connect
+
+- **LinkedIn:** [Michael Götz](https://www.linkedin.com/in/michi-goetz)
+- **Newsletter:** [TPM Insights on Substack](#) <!-- Add your Substack link -->
+
+---
+
+See you December 1st and let's close the year strong. 🎄
+
+---
+
+*© 2025 Michael Götz*
