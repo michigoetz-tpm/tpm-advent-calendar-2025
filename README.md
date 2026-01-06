@@ -89,9 +89,10 @@ Read it in 2 minutes over morning coffee. Implement it before lunch. Move on wit
 
 ## 🚀 Getting Started
 
-1. **Follow along daily** - New content drops every morning in December
-2. **Pick one action item** - Each day has exactly one thing you can implement
-3. **Share your wins** - Tag me on LinkedIn when you apply something
+1. ~~**Follow along daily** - New content drops every morning in December~~
+2. **Revisit the content** - The Advent Calendar is unfortunately already history for 2025 & will bring it back in 2026. Check out the content on the website where all posts are linked
+3. **Pick one action item** - Each day has exactly one thing you can implement
+4. **Share your wins** - Tag me on LinkedIn when you apply something
 
 ## 📁 Repository Structure
 
@@ -109,4 +110,4 @@ Read it in 2 minutes over morning coffee. Implement it before lunch. Move on wit
 - **LinkedIn:** [Michael Götz](https://www.linkedin.com/in/michi-goetz)
 - **Substack:** [TPM Breakdowns](https://michigoetz.substack.com/)
 
-*Built 2025 by Michael Goetz*
+*Built in 2025 by Michael Goetz*
