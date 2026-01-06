@@ -2,7 +2,7 @@
 
 **24 Days of Tactical TPM Insights | Zero Fluff | One Action Item Per Day**
 
-🌐 **Website:** [Coming Soon](#) <!-- Replace with actual URL -->
+🌐 **Website:** [TPM Advent Calendar 2025](https://michigoetz-tpm.github.io/tpm-advent-calendar-2025/)
 
 ---
 
