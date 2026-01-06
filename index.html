@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TPM Advent Calendar 2025</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #f5f5f5;
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        
+        .subtitle {
+            font-size: 1.2em;
+            color: #666;
+        }
+        
+        .description {
+            max-width: 700px;
+            margin: 20px auto 0;
+            color: #555;
+            font-size: 1em;
+            line-height: 1.8;
+        }
+        
+        .calendar-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .door {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            position: relative;
+            min-height: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .door:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+        }
+        
+        .door-number {
+            font-size: 3em;
+            font-weight: bold;
+            color: #e74c3c;
+            margin-bottom: 10px;
+        }
+        
+        .door-label {
+            color: #666;
+            font-size: 0.85em;
+            line-height: 1.3;
+            padding: 0 5px;
+        }
+        
+        .turn-indicator {
+            position: absolute;
+            bottom: 8px;
+            right: 10px;
+            font-size: 1.2em;
+            color: #ccc;
+            transition: all 0.3s ease;
+        }
+        
+        .door:hover .turn-indicator {
+            color: #e74c3c;
+            transform: rotate(180deg);
+        }
+        
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.8);
+            z-index: 1000;
+            overflow: auto;
+        }
+        
+        .modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .modal-content {
+            background: white;
+            border-radius: 12px;
+            padding: 40px;
+            max-width: 800px;
+            width: 100%;
+            position: relative;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+        
+        .close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 30px;
+            cursor: pointer;
+            color: #999;
+            background: none;
+            border: none;
+            width: 40px;
+            height: 40px;
+            line-height: 1;
+        }
+        
+        .close:hover {
+            color: #333;
+        }
+        
+        .modal-header {
+            margin-bottom: 30px;
+        }
+        
+        .modal-day {
+            font-size: 1.2em;
+            color: #e74c3c;
+            font-weight: 600;
+        }
+        
+        .modal-media {
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .modal-media img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        
+        .modal-media video {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        
+        .linkedin-link {
+            display: inline-block;
+            background: #0077b5;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 6px;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: background 0.3s ease;
+        }
+        
+        .linkedin-link:hover {
+            background: #006399;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            .calendar-grid {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                gap: 15px;
+            }
+            
+            .door {
+                padding: 20px;
+                min-height: 120px;
+            }
+            
+            .door-number {
+                font-size: 2em;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .modal-content {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎄 TPM Advent Calendar 2025</h1>
+            <p class="subtitle">24 Days of Technical Program Management Insights</p>
+            <p class="description">Growing up in Germany, December 1st meant one thing: open the 1st door of the advent calendar. This December I am launching the Technical Program Management Advent Calendar. Every morning, a small ritual. A moment of anticipation. A piece of chocolate or a tiny surprise before the day really started. The tech community has built their own versions - no chocolate, but knowledge and challenges. For TPMs I am translating this into daily treats of learning, one door at a time.</p>
+        </header>
+        
+        <div class="calendar-grid" id="calendar">
+            <!-- Days will be generated by JavaScript -->
+        </div>
+        
+        <footer>
+            <p>Created by Michi Goetz | <a href="https://www.linkedin.com/in/michi-goetz" target="_blank" style="color: #0077b5;">Connect on LinkedIn</a></p>
+        </footer>
+    </div>
+    
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <button class="close" onclick="closeModal()">&times;</button>
+            <div class="modal-header">
+                <div class="modal-day" id="modalDay"></div>
+            </div>
+            <div class="modal-media" id="modalMedia"></div>
+            <div style="text-align: center;">
+                <a id="linkedinLink" class="linkedin-link" target="_blank">View LinkedIn Post →</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const days = [
+            { day: 1, file: "Day1of24.png", type: "image", title: "No-Fluff Retrospectives", url: "https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-1-of-24-no-fluff-activity-7401164442815860736-Ra9q" },
+            { day: 2, file: "Day2of24.png", type: "image", title: "The 15-Minute Dependency Dash", url: "https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-2-of-24-the-activity-7401572098491719680-9v9b" },
+            { day: 3, file: "Day3of24.png", type: "image", title: "The Communication Rhythm Audit", url: "https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-3-of-24-the-activity-7401881639125262336-xmKC" },
+            { day: 4, file: "Day4of24.png", type: "image", title: "The Honest Risk Register", url: "https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-4-of-24-the-activity-7402247895816699904-kHel" },
+            { day: 5, file: "Day5of24.png", type: "image", title: "The Stakeholder Alignment", url: "https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-5-of-24-the-activity-7402595141821186048-Mv_J" },
+            { day: 6, file: "Day6of24.png", type: "image", title: "The Capacity vs. Commitment Gap", url: "https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-6-of-24-the-activity-7403070753954484224-t1ZV" },
+            { day: 7, file: "Day7of24.png", type: "image", title: "The Pre-Holiday Handoff", url: "https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-7-of-24-the-activity-7403433120865288192-mycC" },
+            { day: 8, file: "Day8of24.png", type: "image", title: "AI Tool Jungle & Ranking", url: "https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-8-of-24-ai-activity-7403693573294149634-vaEz" },
+            { day: 9, file: "Day9of24.MP4", type: "video", title: "AI Morning Briefing with Gemini", url: "https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-9-of-24-ai-activity-7404059814365966337-Go2A" },
+            { day: 10, file: "Day10of24.MP4", type: "video", title: "AI Real-Time Alignment", url: "https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-10-of-24-ai-activity-7404490089780715520-NndV" },
+            { day: 11, file: "Day11of24.MP4", type: "video", title: "The 'Explain Like I'm the TPM' Prompt", url: "https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-11-of-24-the-activity-7404784681671630850--tpP" },
+            { day: 12, file: "Day12of24.MP4", type: "video", title: "The '5-Minute Risk Audit' Prompt", url: "https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-riskmanagement-activity-7405146900695400448-6uXi" },
+            { day: 13, file: "Day13of24.png", type: "image", title: "The 'Stakeholder Update' with AI", url: "https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-activity-7405615603992137728-mMSR" },
+            { day: 14, file: "Day14of24.png", type: "image", title: "AI Week Reality Check", url: "https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-14-of-24-ai-activity-7405784527710756864-gObx" },
+            { day: 15, file: "Day15of24.png", type: "image", title: "Dependency Mapping w/o AI", url: "https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-15-of-24-dependency-activity-7406234060618104832-MHjD" },
+            { day: 16, file: "Day16of24.png", type: "image", title: "Stakeholder Communication Frameworks", url: "https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-16-of-24-stakeholder-activity-7406585123082604546-341x" },
+            { day: 17, file: "Day17of24.png", type: "image", title: "The 3 Meetings TPMs Run Wrong", url: "https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-meetings-activity-7406962624367738881-_gvB" },
+            { day: 18, file: "Day18of24.png", type: "image", title: "When to Escalate (Without Burning Bridges)", url: "https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-escalation-activity-7407325072505384962-tUba" },
+            { day: 19, file: "Day19of24.png", type: "image", title: "The Signals Your Program is Failing", url: "https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-programmanagement-activity-7407740268244008960-Y1Zl" },
+            { day: 20, file: "Day20of24.png", type: "image", title: "Stop Tracking Status, Start Tracking Momentum", url: "https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-metrics-activity-7408144151915175936-ic2s" },
+            { day: 21, file: "Day21of24.png", type: "image", title: "The Fundamentals That Never Change", url: "https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-fundamentals-activity-7408506795746435073-IP2c" },
+            { day: 22, file: "Day22of24.png", type: "image", title: "The One Skill That Makes Everything Easier", url: "https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-patternrecognition-activity-7408823666706235393-2K0Y" },
+            { day: 23, file: "Day23of24.png", type: "image", title: "What I Wish I Knew When I Started as a TPM", url: "https://www.linkedin.com/posts/michi-goetz_technicalprogrammanagement-tpm-career-activity-7409186088180686848-mrUA" },
+            { day: 24, file: "Day24of24.png", type: "image", title: "What's Next for TPMs in 2026?", url: "https://www.linkedin.com/posts/michi-goetz_tpm-advent-calendar-day-24-of-24-series-activity-7409548458988105728-HCtU" }
+        ];
+
+        // Generate calendar
+        const calendar = document.getElementById('calendar');
+        days.forEach(day => {
+            const door = document.createElement('div');
+            door.className = 'door';
+            door.innerHTML = `
+                <div class="door-number">${day.day}</div>
+                <div class="door-label">${day.title}</div>
+                <div class="turn-indicator">↻</div>
+            `;
+            door.onclick = () => openDoor(day);
+            calendar.appendChild(door);
+        });
+
+        function openDoor(day) {
+            const modal = document.getElementById('modal');
+            const modalDay = document.getElementById('modalDay');
+            const modalMedia = document.getElementById('modalMedia');
+            const linkedinLink = document.getElementById('linkedinLink');
+
+            modalDay.textContent = `Day ${day.day} of 24`;
+            linkedinLink.href = day.url;
+
+            if (day.type === 'image') {
+                modalMedia.innerHTML = `<img src="images/${day.file}" alt="Day ${day.day}">`;
+            } else {
+                modalMedia.innerHTML = `<video controls><source src="images/${day.file}" type="video/mp4">Your browser does not support the video tag.</video>`;
+            }
+
+            modal.classList.add('active');
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('modal');
+            modal.classList.remove('active');
+            
+            // Stop video if playing
+            const video = modal.querySelector('video');
+            if (video) {
+                video.pause();
+                video.currentTime = 0;
+            }
+        }
+
+        // Close modal on outside click
+        document.getElementById('modal').onclick = function(e) {
+            if (e.target === this) {
+                closeModal();
+            }
+        };
+
+        // Close modal on Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeModal();
+            }
+        });
+    </script>
+</body>
+</html>
